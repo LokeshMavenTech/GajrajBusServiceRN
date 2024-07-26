@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { View, Text, SafeAreaView } from 'react-native';
+import { View,SafeAreaView } from 'react-native';
 import remoteConfig from '@react-native-firebase/remote-config';
 import SplashScreen from 'react-native-splash-screen';
 import { WebView } from 'react-native-webview';
@@ -25,9 +25,9 @@ export default function App() {
 
   return (
     <SafeAreaView style={{ flex: 1 }}>
-      <View style={{ flex: 1 }}>
+      {/* <View style={{ flex: 1 }}> */}
         <WebView source={{ uri: 'https://www.gajrajbus.com/' }} style={{ flex: 1 }} />
-      </View>
+      {/* </View> */}
     </SafeAreaView>
   );
 }
