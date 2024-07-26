@@ -8,7 +8,7 @@ import VersionCheck from 'react-native-version-check';
 export default function App() {
   useEffect(() => {
     // Hide the splash screen when the app is ready
-    SplashScreen.hide();
+    // SplashScreen.hide();
 
     // Set up remote config
     remoteConfig()
