@@ -15,7 +15,7 @@ export default function App() {
       .then(fetchedRemotely => {
         if (fetchedRemotely) {
           const parameters = remoteConfig().getAll();
-          console.log('Configs were retrieved from the backend and activated.', parameters);
+          console.log('Configs were retrieved from the backend and activated.', parameters.Account_deletaion_url._value);
         } else {
           console.log('No configs were fetched from the backend, and the local configs were already activated');
         }
