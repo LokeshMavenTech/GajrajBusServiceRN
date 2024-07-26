@@ -25,9 +25,7 @@ export default function App() {
 
   return (
     <SafeAreaView style={{ flex: 1 }}>
-      {/* <View style={{ flex: 1 }}> */}
         <WebView source={{ uri: 'https://www.gajrajbus.com/' }} style={{ flex: 1 }} />
-      {/* </View> */}
     </SafeAreaView>
   );
 }
