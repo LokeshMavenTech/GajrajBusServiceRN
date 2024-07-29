@@ -1,8 +1,11 @@
 import React, { useEffect } from 'react';
-import { View,SafeAreaView } from 'react-native';
+import { View,SafeAreaView,Platform ,Text} from 'react-native';
 import remoteConfig from '@react-native-firebase/remote-config';
 import SplashScreen from 'react-native-splash-screen';
 import { WebView } from 'react-native-webview';
+
+const getPlatform = () => Platform.OS === 'ios' ? "ios" : "android";
+const webViewUri = getPlatform() === 'ios' ? 'https://www.gajrajbus.com/' : '';
 
 export default function App() {
   useEffect(() => {
@@ -21,11 +24,16 @@ export default function App() {
         }
       });
   }, []);
+ 
 
 
   return (
     <SafeAreaView style={{ flex: 1 }}>
-        <WebView source={{ uri: 'https://www.gajrajbus.com/' }} style={{ flex: 1 }} />
+      {webViewUri ? (
+        <WebView source={{ uri: webViewUri }} style={{ flex: 1 }} />
+      ) : (
+        null
+      )}
     </SafeAreaView>
   );
 }
