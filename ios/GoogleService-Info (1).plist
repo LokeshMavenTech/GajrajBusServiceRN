@@ -11,7 +11,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.ios.gajrarbusservice</string>
+	<string>com.ios.gajrajbusservice</string>
 	<key>PROJECT_ID</key>
 	<string>microid-12368</string>
 	<key>STORAGE_BUCKET</key>
@@ -27,7 +27,7 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:350811108924:ios:4a31ccc3967b06f9cfb539</string>
+	<string>1:350811108924:ios:f967346f5ba10c3fcfb539</string>
 	<key>DATABASE_URL</key>
 	<string>https://microid-12368.firebaseio.com</string>
 </dict>

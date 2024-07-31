@@ -12,7 +12,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		188321302C5252C400F70127 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1883212F2C5252C400F70127 /* GoogleService-Info.plist */; };
+		186FE84D2C590B31006D9C99 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 186FE84C2C590B31006D9C99 /* GoogleService-Info.plist */; };
 		7699B88040F8A987B510C191 /* libPods-GajrajBusServiceRN-GajrajBusServiceRNTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-GajrajBusServiceRN-GajrajBusServiceRNTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -37,7 +37,7 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = GajrajBusServiceRN/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = GajrajBusServiceRN/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = GajrajBusServiceRN/main.m; sourceTree = "<group>"; };
-		1883212F2C5252C400F70127 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		186FE84C2C590B31006D9C99 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		18AB82B72C576DD80097932D /* GajrajBusServiceRN.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = GajrajBusServiceRN.entitlements; path = GajrajBusServiceRN/GajrajBusServiceRN.entitlements; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-GajrajBusServiceRN-GajrajBusServiceRNTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GajrajBusServiceRN-GajrajBusServiceRNTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-GajrajBusServiceRN.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GajrajBusServiceRN.debug.xcconfig"; path = "Target Support Files/Pods-GajrajBusServiceRN/Pods-GajrajBusServiceRN.debug.xcconfig"; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				1883212F2C5252C400F70127 /* GoogleService-Info.plist */,
+				186FE84C2C590B31006D9C99 /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* GajrajBusServiceRN */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* GajrajBusServiceRNTests */,
@@ -251,7 +251,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				188321302C5252C400F70127 /* GoogleService-Info.plist in Resources */,
+				186FE84D2C590B31006D9C99 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +522,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = GajrajBusServiceRN/GajrajBusServiceRN.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YF6P6644XL;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = GajrajBusServiceRN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -534,7 +535,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ios.gajrarbusservice;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.gajrajbusservice;
 				PRODUCT_NAME = GajrajBusServiceRN;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -550,6 +551,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = GajrajBusServiceRN/GajrajBusServiceRN.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YF6P6644XL;
 				INFOPLIST_FILE = GajrajBusServiceRN/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -561,7 +563,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ios.gajrarbusservice;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ios.gajrajbusservice;
 				PRODUCT_NAME = GajrajBusServiceRN;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -645,6 +647,8 @@
 					"-ld_classic",
 					"-Wl",
 					"-ld_classic",
+					"-Wl",
+					"-ld_classic",
 				);
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
@@ -717,6 +721,8 @@
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
+					"-Wl",
+					"-ld_classic",
 					"-Wl",
 					"-ld_classic",
 					"-Wl",
